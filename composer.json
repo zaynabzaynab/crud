@@ -15,7 +15,7 @@
     },
     "autoload": {
     "psr-4": {
-        "Za\\Crud": "za/crud/"
+        "Za\\Crud\\": "za/crud/"
     }
 },
     "extra": {
