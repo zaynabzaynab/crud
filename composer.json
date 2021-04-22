@@ -13,6 +13,11 @@
     "require-dev": {
         "orchestra/testbench": "^6.7"
     },
+    "autoload": {
+    "psr-4": {
+        "Za\\Crud": "za/crud/"
+    }
+},
     "extra": {
         "laravel": {
             "providers": [
