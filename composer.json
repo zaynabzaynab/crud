@@ -1,0 +1,29 @@
+{
+    "name": "za/crud",
+    "description": "This package create CRUD for customers",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zineb el amri",
+            "email": "zineb.elamri.97@gmail.com"
+        }
+    ],
+    
+    "minimum-stability":"dev",
+    "require-dev": {
+        "orchestra/testbench": "^6.7"
+    },
+    "autoload": {
+    "psr-4": {
+        "Za\\Crud\\": "za/crud/"
+    }
+},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Za\\Crud\\Providers\\CustomerServiceProvider"
+            ]
+        }
+    }
+    
+}
